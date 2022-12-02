@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/nuduja.github.io/static/css/main.deb5c223.css",
+    "main.js": "/nuduja.github.io/static/js/main.e9dcf349.js",
+    "static/media/hero-dark.jpg": "/nuduja.github.io/static/media/hero-dark.37f2556d620821979e99.jpg",
+    "static/media/hero-light.jpg": "/nuduja.github.io/static/media/hero-light.78b77836d8aee4d7d3cb.jpg",
+    "service-worker.js": "/nuduja.github.io/service-worker.js",
+    "static/media/GH.svg": "/nuduja.github.io/static/media/GH.b9e9a9aa6f05e9dfe5dcb8991bda3e4d.svg",
+    "static/media/logo.svg": "/nuduja.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/nuduja.github.io/index.html",
+    "main.deb5c223.css.map": "/nuduja.github.io/static/css/main.deb5c223.css.map",
+    "main.e9dcf349.js.map": "/nuduja.github.io/static/js/main.e9dcf349.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.deb5c223.css",
+    "static/js/main.e9dcf349.js"
+  ]
+}
