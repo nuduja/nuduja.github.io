@@ -1,17 +1,22 @@
+import { useAppContext } from "../appContext";
 import { useSelector } from "react-redux";
 import { selectData } from "../pages/homeSlice";
 import { Link } from "react-scroll";
 import styled from "styled-components";
+
 // Icons
 import { FaChevronCircleDown } from "react-icons/fa";
 // Media
 // import Logo from "../images/logo.svg";
 import { Light, Dark } from "../data";
 // Components
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { Spin } from "./globalStyledComponents";
 import SocialLinks from "./SocialLinks";
 // import Typed from "react-typed";
+// Data
+import { skillData, resume } from "../data";
+
 
 const StyledHero = styled.header`
   position: relative;
@@ -83,6 +88,7 @@ const StyledHero = styled.header`
 
 export default function Hero() {
   const { name } = useSelector(selectData);
+  const { theme } = useAppContext();
 
   return (
     <StyledHero>
@@ -120,11 +126,27 @@ export default function Hero() {
         </Row>
         <Row className="align-items-end down-container">
           <Col className="m-4 text-center">
+        {resume && (
+            <a href={resume}>
+              <Button
+                size="lg"
+                variant={theme === "light" ? "outline-dark" : "outline-light"}
+                className="mt-5"
+              >
+                R&eacute;sum&eacute;
+              </Button>
+            </a>
+          )}
+          </Col>
+        </Row>
+        <Row className="align-items-end down-container">
+          <Col className="m-4 text-center">
             <Link to={"About"} className="link-icons">
               <FaChevronCircleDown />
             </Link>
           </Col>
         </Row>
+        
       </Container>
     </StyledHero>
   );
