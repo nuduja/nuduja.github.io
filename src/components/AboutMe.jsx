@@ -35,6 +35,7 @@ export default function AboutMe() {
             <Col className="d-flex flex-column text-center">
               <Container>
                 {/* <p>{bio}</p> */}
+                
                 {moreInfo && 
                 <p>{moreInfo}</p>}
               </Container>

@@ -88,6 +88,33 @@ export const skillData = [
   },
 ];
 
+
+/* Experience
+ ************************************************************** 
+  Add or remove experience in the SAME format below, there must be one icon imported above per experience below.
+*/
+export const experienceData = [
+  {
+    "company": "DefOpenSource",
+    "title": "Front-End Developer",
+    "years": "10.2019 - present",
+    "mainTech": [
+      "Angular 8/9/10"
+    ],
+    "technologies": [
+      "REST API",
+      "RxJS",
+      "JavaScript",
+      "Bootstrap",
+      "MDBootstrap",
+      "EF Core",
+      ".NET Core",
+      "SignalR",
+      "Angular Material"
+    ]
+  },
+];
+
 // Resume link (string - "https://YourResumeUrl") - I am using CloudFront to share my resume (https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html)
 export const resume = "https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/Introduction.html";
 

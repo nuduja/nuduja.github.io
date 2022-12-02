@@ -14,6 +14,7 @@ import { Container } from "react-bootstrap";
 import { Loading } from "./components/globalStyledComponents";
 import ScrollToTop from "./components/ScrollToTop";
 import GlobalStyles from "./components/GlobalStyles";
+// import Experience from "./components/Experience";
 // Pages
 import Home from "./pages/Home";
 import AllProjects from "./pages/AllProjects";
